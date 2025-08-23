@@ -116,7 +116,7 @@ Detailed documentation is available in the `docs` folder:
 ## 🌐 App Screenshots
 
 <div align="center">
-  <img src="https://placehold.co/200x400/151312/FFFFFF?text=Home+Screen" alt="Home Screen" width="200">
+  <img src="https://postimg.cc/mzbYFgXq" alt="Home Screen" width="200">
   <img src="https://placehold.co/200x400/151312/FFFFFF?text=Search+Screen" alt="Search Screen" width="200">
   <img src="https://placehold.co/200x400/151312/FFFFFF?text=Movie+Details" alt="Movie Details" width="200">
   <img src="https://placehold.co/200x400/151312/FFFFFF?text=Saved+Movies" alt="Saved Movies" width="200">
@@ -155,3 +155,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Appwrite](https://appwrite.io/) for backend services
 - [Expo](https://expo.dev/) for React Native tooling
 - [NativeWind](https://www.nativewind.dev/) for styling utilities
+
