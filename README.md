@@ -1,6 +1,6 @@
 # Welcome to your Expo app 👋
 
-[![Watch the video](https://img.youtube.com/vi/qLm-KBGVrGs?si=kTAxl1Ynn7yrD8cW/maxresdefault.jpg)](https://youtu.be/qLm-KBGVrGs?si=kTAxl1Ynn7yrD8cW)
+https://youtu.be/qLm-KBGVrGs?si=kTAxl1Ynn7yrD8cW
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
