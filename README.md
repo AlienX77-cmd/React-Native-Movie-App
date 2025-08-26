@@ -1,52 +1,149 @@
-# Welcome to your Expo app 👋
+# React Native Movie App - README
 
-https://youtu.be/qLm-KBGVrGs?si=kTAxl1Ynn7yrD8cW
+<h1 align="center">React Native Movie App</h1>
+<p align="center">A feature-rich movie discovery and bookmarking application built with React Native and Expo</p>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Video Clip: https://youtu.be/qLm-KBGVrGs?si=kTAxl1Ynn7yrD8cW
 
-## Get started
+## 📱 Overview
 
-1. Install dependencies
+The React Native Movie App is a mobile application that allows users to discover popular movies, search for specific titles, view detailed information, and save their favorite movies for later reference. The app integrates with The Movie Database (TMDB) API for movie data and uses Appwrite as a backend service for user data and analytics.
 
-   ```bash
-   npm install
-   ```
+## ✨ Features
 
-2. Start the app
+- **Movie Discovery**: Browse popular and trending movies
+- **Search**: Find movies by title with real-time search results
+- **Movie Details**: View comprehensive information about any movie
+- **Save Movies**: Bookmark favorite movies for later viewing
+- **Trending Analytics**: See what movies are popular among users
+- **Beautiful UI**: Visually appealing interface with smooth animations
 
-   ```bash
-   npx expo start
-   ```
+## 🛠️ Tech Stack
 
-In the output, you'll find options to open the app in a
+- **React Native**: Core framework for mobile development
+- **Expo**: Development platform for React Native
+- **TypeScript**: Type-safe JavaScript
+- **NativeWind**: Tailwind CSS for React Native styling
+- **Expo Router**: File-based navigation system
+- **Appwrite**: Backend as a Service for database and user data
+- **TMDB API**: Movie data source
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🚀 Getting Started
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Prerequisites
 
-## Get a fresh project
+- Node.js (v16 or later)
+- npm or yarn
+- Expo CLI
+- TMDB API Key
+- Appwrite Account
 
-When you're ready, run:
+### Installation
+
+1. Clone the repository
 
 ```bash
-npm run reset-project
+git clone https://github.com/AlienX77-cmd/React-Native-Movie-App.git
+cd React-Native-Movie-App
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Install dependencies
 
-## Learn more
+```bash
+npm install
+# or
+yarn
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+3. Configure environment variables
+   Create a `.env` file in the root directory with the following variables:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```
+EXPO_PUBLIC_MOVIE_API_KEY=your_tmdb_api_key
+EXPO_PUBLIC_APPWRITE_PROJECT_ID=your_appwrite_project_id
+EXPO_PUBLIC_APPWRITE_DATABASE_ID=your_appwrite_database_id
+EXPO_PUBLIC_APPWRITE_COLLECTION_ID=your_appwrite_collection_id
+EXPO_PUBLIC_APPWRITE_SAVED_MOVIES_ID=your_appwrite_saved_movies_id
+```
 
-## Join the community
+4. Start the development server
 
-Join our community of developers creating universal apps.
+```bash
+npm start
+# or
+yarn start
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+5. Launch on your preferred platform
+
+```bash
+# For iOS
+npm run ios
+
+# For Android
+npm run android
+```
+
+## 📁 Project Structure
+
+```
+React-Native-Movie-App/
+├── app/                    # Expo Router screens
+│   ├── (tabs)/             # Tab-based screens
+│   └── movie/              # Movie details
+├── assets/                 # Static assets
+├── components/             # Reusable components
+├── constants/              # App constants
+├── interfaces/             # TypeScript interfaces
+├── services/               # API and backend services
+├── types/                  # Type definitions
+└── docs/                   # Documentation
+```
+
+## 📚 Documentation
+
+Detailed documentation is available in the `docs` folder:
+
+- [System Architecture](./docs/SystemArchitecture.md)
+- [Architecture Diagrams](./docs/ArchitectureDiagrams.md)
+- [Database Schema](./docs/DatabaseSchema.md)
+- [API Integration](./docs/APIIntegration.md)
+- [Component Structure](./docs/ComponentStructure.md)
+- [Developer Guide](./docs/DeveloperGuide.md)
+
+## 🧩 Core Components
+
+- **MovieCard**: Displays movie information in a card layout
+- **SearchBar**: Input component for searching movies
+- **SaveButton**: Button for saving/unsaving movies
+- **TrendingCard**: Special component for trending movies
+
+## 🔄 Data Flow
+
+1. **Movie Data**: Fetched from TMDB API
+2. **User Data**: Stored in Appwrite backend
+3. **Events**: Managed through custom event system
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgements
+
+- [TMDB](https://www.themoviedb.org/) for providing the movie data API
+- [Appwrite](https://appwrite.io/) for backend services
+- [Expo](https://expo.dev/) for React Native tooling
+- [NativeWind](https://www.nativewind.dev/) for styling utilities
+
+
+
