@@ -1,9 +1,7 @@
-# React Native Movie App - README
-
 <h1 align="center">React Native Movie App</h1>
 <p align="center">A feature-rich movie discovery and bookmarking application built with React Native and Expo</p>
 
-# Video Clip: https://youtu.be/qLm-KBGVrGs?si=kTAxl1Ynn7yrD8cW
+# Video: https://youtu.be/qLm-KBGVrGs?si=kTAxl1Ynn7yrD8cW
 
 ## 📱 Overview
 
