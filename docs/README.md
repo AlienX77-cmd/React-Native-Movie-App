@@ -1,9 +1,5 @@
 # React Native Movie App - README
 
-<p align="center">
-  <img src="./assets/icons/logo.png" width="150" alt="Movie App Logo">
-</p>
-
 <h1 align="center">React Native Movie App</h1>
 <p align="center">A feature-rich movie discovery and bookmarking application built with React Native and Expo</p>
 
@@ -113,15 +109,6 @@ Detailed documentation is available in the `docs` folder:
 - [Component Structure](./docs/ComponentStructure.md)
 - [Developer Guide](./docs/DeveloperGuide.md)
 
-## 🌐 App Screenshots
-
-<div align="center">
-  <img src="https://postimg.cc/mzbYFgXq" alt="Home Screen" width="200">
-  <img src="https://placehold.co/200x400/151312/FFFFFF?text=Search+Screen" alt="Search Screen" width="200">
-  <img src="https://placehold.co/200x400/151312/FFFFFF?text=Movie+Details" alt="Movie Details" width="200">
-  <img src="https://placehold.co/200x400/151312/FFFFFF?text=Saved+Movies" alt="Saved Movies" width="200">
-</div>
-
 ## 🧩 Core Components
 
 - **MovieCard**: Displays movie information in a card layout
@@ -155,4 +142,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Appwrite](https://appwrite.io/) for backend services
 - [Expo](https://expo.dev/) for React Native tooling
 - [NativeWind](https://www.nativewind.dev/) for styling utilities
+
 
